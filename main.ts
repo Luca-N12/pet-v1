@@ -68,7 +68,7 @@ input.onButtonPressed(Button.B, function () {
 music.onEvent(MusicEvent.MelodyNotePlayed, function () {
 	
 })
-for (let index = 0; index < 648752399543456; index++) {
+basic.forever(function () {
     basic.showLeds(`
         . . . . .
         . # . # .
@@ -160,4 +160,4 @@ for (let index = 0; index < 648752399543456; index++) {
         . # # # .
         . . . . .
         `)
-}
+})

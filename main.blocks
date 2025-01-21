@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="melody_on_event" id="y3r#IpH$}j(%^(o+;L(D" x="-515" y="-199"><field name="value">MusicEvent.MelodyNotePlayed</field></block><block type="pxt-on-start" id="YEK2?CM-=si~]x8XV/7@" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="Q*Ge5pLberS-0w}ZG9~7"><value name="TIMES"><shadow type="math_whole_number" id="A3:yi;YNGGv1/iZ}P7)/"><field name="NUM">648752399543456</field></shadow></value><statement name="DO"><block type="device_show_leds" id="xx^5vFM^rd_(@6cw(1J$"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="melody_on_event" id="y3r#IpH$}j(%^(o+;L(D" x="-515" y="-199"><field name="value">MusicEvent.MelodyNotePlayed</field></block><block type="device_forever" id="O$wTngALX;Ar4Oo5yeCu" x="-65" y="-45"><statement name="HANDLER"><block type="device_show_leds" id="xx^5vFM^rd_(@6cw(1J$"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
@@ -76,7 +76,7 @@
         . . . . . 
         . # # # . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="[^wx!1gJXd(%]!l#wW:|" x="240" y="286"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id=")JZ$AnK%hYynAzq9O*`!"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="[^wx!1gJXd(%]!l#wW:|" x="240" y="286"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id=")JZ$AnK%hYynAzq9O*`!"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
